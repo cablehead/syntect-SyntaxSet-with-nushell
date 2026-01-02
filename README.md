@@ -21,8 +21,8 @@ Once the `syntax_set.bin` file has been generated, replace `stacks/src-tauri/syn
 
 You can also use the Nushell syntax definition with [bat](https://github.com/sharkdp/bat):
 
-```bash
-mkdir -p ~/.config/bat/syntaxes
+```nushell
+mkdir ~/.config/bat/syntaxes
 cp nushell.sublime-syntax ~/.config/bat/syntaxes/
 bat cache --build
 ```
