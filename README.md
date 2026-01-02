@@ -17,6 +17,18 @@ cargo r
 
 Once the `syntax_set.bin` file has been generated, replace `stacks/src-tauri/syntax_set.bin`
 
+### Using with bat
+
+You can also use the Nushell syntax definition with [bat](https://github.com/sharkdp/bat):
+
+```bash
+mkdir -p ~/.config/bat/syntaxes
+cp nushell.sublime-syntax ~/.config/bat/syntaxes/
+bat cache --build
+```
+
+Now `.nu` files will have syntax highlighting when viewed with bat.
+
 ## Credits
 
 - The `nushell.sublime-syntax` file has been copied from
