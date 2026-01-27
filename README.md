@@ -23,7 +23,7 @@ You can also use the Nushell syntax definition with [bat](https://github.com/sha
 
 ```nushell
 mkdir ~/.config/bat/syntaxes
-cp nushell.sublime-syntax ~/.config/bat/syntaxes/
+cp syntaxes/nushell.sublime-syntax ~/.config/bat/syntaxes/
 bat cache --build
 ```
 
